@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 38-42</title>
+    <script src="switchLoops.js"></script>
+    <script src="Events.js"></script>
+    <script src="clicker.js"></script>
+
+</head>
+<body>
+    <!-- //onClick method use as a link -->
+    <a href="#" onClick="alert('Hi');">Click</a>
+
+    <!-- //Moseover and Mouseout method use in it.. -->
+    <h2>Iphone 13 pro Max</h2>
+    <img src="i13pro.jpg" onMouseover="src='iX.jpg'" onMouseout="src='i13pro.jpg'" OnClick="alert('You want to buy that phone...');" width="500" height="333">
+   <br>
+   
+   <!-- //Onfocus method is used.. -->
+    Email:<br>
+    <input type="text" size="30" onFocus="this.style.backgroundColor='yellow';"
+    onBlur="this.style.backgroundColor='red';"> 
+    
+    <br><br>
+
+    <!-- ///////////Counter  function -->
+    <button  type="button" onClick="increment()">Incr</button>
+    <button  type="button" onClick="decrement()">Decr</button>
+    
+    <br>
+    <span>Clicks:</span>
+    <span id="clicks"> 0</span>
+    
+
+    
+</body>
+</html>
